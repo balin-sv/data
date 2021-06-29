@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.5;
+}
+
+.header {
+  padding-left: 2%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: flex;
+  justify-content: space-between;
+  background-color: bisque;
+}
+
+.header-logo img {
+  max-width: 100%;
+}
+
+.main-container {
+  display: flex;
+  margin: 0 auto;
+}
+.section-1 {
+  background-color: rgb(204, 204, 204);
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.section-1 h1 {
+  margin-bottom: 5%;
+}
+
+.listOfPersons li {
+  font-size: 23px;
+  list-style: none;
+}
+
+.listOfPersons li a {
+  text-decoration: none;
+  color: black;
+}
+
+.listOfPersons li a:hover {
+  color: rgb(190, 138, 75);
+  cursor: pointer;
+}
+
+/* 
+.listOfPersons li a:visited {
+  color: ghostwhite;
+  cursor: pointer;
+} */
+
+.section-2 {
+  background-color: darkorange;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+
+.section-2-wrapper {
+  margin: 0 auto;
+  padding: 6%;
+  width: 50%;
+  font-size: 20px;
+}
+
+.section-2-img {
+  margin: 0 auto;
+  padding: 6%;
+  width: 50%;
+  overflow: hidden;
+}
+
+.section-2-img img {
+  object-fit: cover;
+  width: 100%;
+}
+
+button {
+  display: flex;
+  padding: 15px;
+  border-radius: 10%;
+  margin-top: 50px;
+  background-color: yellowgreen;
+  box-shadow: 0 0 10px rgba(0, 0.5, 0, 0.5);
+  cursor: pointer;
+}
+
+.main-show-more-container {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+}
+
+.show-more-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.section-items-wrapper {
+  padding-left: 6%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: last baseline;
+}
+
+.item-card {
+  margin-left: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border: 5px solid yellowgreen;
+}
+
+.item-img {
+  margin: 0px 0px 20px 0px;
+  padding: 0px 0px 70% 0px;
+  overflow: hidden;
+  position: relative;
+}
+
+.item-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.item-card-descr {
+  padding: 10px;
+  width: 200px;
+  overflow-wrap: break-word;
+}
+
+form input {
+  height: 30px;
+  border: 2px solid yellowgreen;
+}
+
+#theButton {
+  background-color: yellowgreen;
+  color: black;
+  box-shadow: 0 0 5px rgba(0, 0.5, 0, 0.5);
+  cursor: pointer;
+}
+
+form {
+  padding-top: 5%;
+  padding-right: 10%;
+}
+
+footer {
+  padding-left: 2%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: bisque;
+}
+
+@media screen and (max-width: 1025px) {
+  .header {
+    flex-direction: column;
+  }
+  .section-1 {
+    width: 40%;
+  }
+  .section-2 {
+    flex-direction: column;
+    width: 60%;
+  }
+
+  .section-2-img {
+    width: 80%;
+    height: 40%;
+  }
+
+  .section-2-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .listOfPersons li {
+    font-size: 20px;
+  }
+
+  .section-2-wrapper {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .main-container {
+    flex-direction: column;
+  }
+  .section-1 {
+    width: 100%;
+  }
+  .section-2 {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .header-logo {
+    width: 90%;
+  }
+  .start-img {
+    display: none;
+  }
+
+  .listOfPersons li {
+    font-size: 19px;
+  }
+
+  .section-2-desc {
+    font-size: 16px;
+    margin: 0 auto;
+  }
+
+  .section-2-img {
+    width: 60%;
+    height: 40%;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .header-logo {
+    width: 70%;
+  }
+} ;

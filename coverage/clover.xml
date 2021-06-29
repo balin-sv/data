@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1624727299944" clover="3.2.0">
+  <project timestamp="1624727299945" name="All files">
+    <metrics statements="14" coveredstatements="9" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="1" elements="17" coveredelements="10" complexity="0" loc="14" ncloc="14" packages="2" files="2" classes="2"/>
+    <package name="src">
+      <metrics statements="14" coveredstatements="9" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="data.js" path="/Users/sv/projects/bootcamp/projects/02-data-lovers/src/data.js">
+        <metrics statements="14" coveredstatements="9" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="1" type="cond" truecount="0" falsecount="2"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.data.ghibli">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="ghibli.js" path="/Users/sv/projects/bootcamp/projects/02-data-lovers/src/data/ghibli/ghibli.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+  </project>
+</coverage>
